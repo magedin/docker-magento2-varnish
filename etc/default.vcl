@@ -175,4 +175,3 @@ sub vcl_deliver {
     unset resp.http.Via;
     unset resp.http.Link;
 }
-
